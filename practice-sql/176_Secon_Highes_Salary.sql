@@ -1,5 +1,3 @@
--- 176. Second Highest Salary (https://leetcode.com/problems/second-highest-salary/description/)
-
 DROP SCHEMA IF EXISTS leetcode CASCADE;
 CREATE SCHEMA leetcode;
 SET search_path TO leetcode, public;
