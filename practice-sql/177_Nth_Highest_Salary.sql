@@ -1,3 +1,5 @@
+-- 177. Nth Highest Salary (https://leetcode.com/problems/nth-highest-salary/description/)
+
 DROP SCHEMA IF EXISTS leetcode CASCADE;
 CREATE SCHEMA leetcode;
 SET search_path TO leetcode, public;
@@ -17,7 +19,6 @@ VALUES
 (6, 9000)
 ;
 
--- 177. Nth Highest Salary (https://leetcode.com/problems/nth-highest-salary/description/)
 CREATE OR REPLACE FUNCTION nthHighestSalary(n int)
 RETURNS TABLE (
 	salary int
