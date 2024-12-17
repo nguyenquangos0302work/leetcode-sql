@@ -1,0 +1,19 @@
+# SQL Backup files
+*.bak
+*.sql~
+
+# Database dump files
+*.csv
+*.xml
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
