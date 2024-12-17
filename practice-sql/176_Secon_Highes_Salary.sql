@@ -1,3 +1,5 @@
+-- 176. Second Highest Salary (https://leetcode.com/problems/second-highest-salary/description/)
+
 DROP SCHEMA IF EXISTS leetcode CASCADE;
 CREATE SCHEMA leetcode;
 SET search_path TO leetcode, public;
@@ -11,7 +13,6 @@ INSERT INTO Employee (id, salary)
 VALUES 
 (1, 5000);
 
--- 176. Second Highest Salary (https://leetcode.com/problems/second-highest-salary/description/)
 SELECT MAX(salary) AS SecondHighestSalary
 FROM Employee e
 WHERE e.id NOT IN (SELECT e.id
