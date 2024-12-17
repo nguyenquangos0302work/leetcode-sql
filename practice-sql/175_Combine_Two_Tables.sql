@@ -1,5 +1,3 @@
--- 175. Combine Two Tables (https://leetcode.com/problems/combine-two-tables/description/)
-
 DROP SCHEMA IF EXISTS leetcode CASCADE;
 CREATE SCHEMA leetcode;
 SET search_path TO leetcode, public;
